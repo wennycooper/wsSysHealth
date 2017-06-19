@@ -8,16 +8,16 @@
 
 ## INSTALL web.py module of python
 
-    $ pip install web.py
+    $ sudo pip install web.py      ## Don't worry about the warning messages
     
 ## INSTALL this script to YOUR_ROS_PACKAGE
 
     $ git clone this project to folder ~/wsSysHealth
     $ roscd YOUR_ROS_PACKAGE
-    $ mkdir scripts
+    $ mkdir scripts                ## Create scripts folder if it doesn't exist
     $ cd scripts
-    $ cp ~/wsSysHealth/wsSysHealth.py .
-    $ chmod 755 wsSysHealth.py
+    $ cp ~/wsSysHealth/wsSysHealth.py .    ## Copy the file to the scrips folder
+    $ chmod 755 wsSysHealth.py             ## Make it executable
  
 
 # Run
